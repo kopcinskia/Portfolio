@@ -26,18 +26,28 @@ body {
     font-family: @font-family-primary;
     color: @basic-text-color;
 }
-
-p {
-    margin: @paragraph-margin;
-    line-height: @basic-line-height;
-}
-
-h2 {
-    .header-mixin(24px;
-    12px);
-}
-
-h3 {
-    .header-mixin(18px;
+h2 { 
+    .header-mixin(36px;
     18px);
+    @media @desktop {
+        .header-mixin(28px;
+    18px);
+    }
+}
+h3 {
+    .header-mixin(30px;
+    16px);
+   @media @desktop {
+        .header-mixin(23px;
+    18px);
+    }
+}
+p {
+    line-height: @basic-line-height;
+    .header-mixin(24px;
+    13px);
+   @media @desktop {
+        .header-mixin(16px;
+    18px);
+    }
 }
