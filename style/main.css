@@ -709,11 +709,6 @@ header .navbar #lang-select .lang {
 .main-slider-content a:hover {
   background-color: #45af96;
 }
-@media only screen and (min-width: 1024px) {
-  .main-slider-content a:hover {
-    font-size: 28px;
-  }
-}
 .our-services {
   padding: 60px 80px;
   overflow: auto;
@@ -936,31 +931,6 @@ header .navbar #lang-select .lang {
   font-weight: 400;
   position: relative;
 }
-.video-ilne a {
-  font-size: 20px;
-  position: relative;
-  color: #ffffff;
-  background-color: #45af96;
-  text-decoration: none;
-  display: inline-block;
-  font-style: 13px;
-  font-weight: 250;
-  line-height: 24px;
-  text-transform: uppercase;
-  padding: 18px 38px;
-  margin: 8px 0;
-  transition: all 0.4s ease-in-out;
-}
-.video-ilne a:hover {
-  color: #45af96;
-  background-color: #ffffff;
-  text-decoration: none;
-  display: inline-block;
-  font-style: 13px;
-  font-weight: 250;
-  line-height: 24px;
-  text-transform: uppercase;
-}
 .advanteges {
   padding: 50px 30px;
   border-top-width: 1px;
@@ -988,7 +958,7 @@ header .navbar #lang-select .lang {
 }
 @media only screen and (min-width: 1280px) {
   .advanteges .single-col {
-    min-height: 100px;
+    min-height: 120px;
   }
 }
 .advanteges .single-col span {
@@ -1041,7 +1011,7 @@ header .navbar #lang-select .lang {
 }
 .photo-banner {
   text-align: center;
-  background: url(../images/Cover.jpeg) no-repeat center center fixed;
+  background: url(../images/Cover.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -1236,26 +1206,6 @@ header .navbar #lang-select .lang {
   color: #45af96;
   background-color: #ffffff;
   border: 2px solid #45af96;
-}
-.opinions {
-  padding: 80px 0 30px 0;
-}
-.opinions ul {
-  padding: 0;
-}
-.opinions-content {
-  text-align: center;
-  padding-bottom: 40px;
-}
-.opinions-content p {
-  line-height: 30px;
-  font-style: italic;
-  color: #a6a6a6;
-  margin-bottom: 25px;
-}
-.opinions-content h3 {
-  text-align: center;
-  margin: 0 0 18px 0;
 }
 .bx-viewport {
   min-height: 100px;
